@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("9157919"))
-API_HASH = getenv("b90c282e584222babde5f68b5b63ee3b")
-BOT_TOKEN = getenv("5353641392:AAHrG7uci02NtS_sxbbj_NCUrhUV4yAyTPg")
-SESSION_NAME = getenv("SESSION_NAME", "BAAqf8RhiJqRZgGo9aLe3a3nKCNa_0IFBnFMOMhEi2yvvNdvcRrO6FGpAbhMJTODIjQGlkIIlUQ4VXTqtxn1vflCh9kvSQWM-I_Mwl6zIiB-LYCS9FJduaPr72b8JHi3pOQeVZXvWYco9CRt3Onhvy-3FW6KeH4HdPhx3srzGgUb7-EcSUMLZw7yNOfzmELWs6oKxyUIkWmkICfAkSpcyxLe9bSUMySWZ3jmMbSV5xQ1J4hGrfPktCSXxYtxuErbsEh9Jus27Ptd_g2K69mQc9A6fDxplJYhtXq9VliyjhMAMPGUoOD7gduphQ6oRAEl-kXCUNn53LpNMP2Va1MeP79AAAAAAUCtdZ8A")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
+BOT_TOKEN = getenv("BOT_TOKEN")
+SESSION_NAME = getenv("SESSION_NAME", "session")
 
 # mandatory vars
-OWNER_USERNAME = getenv("Tom_01157")
+OWNER_USERNAME = getenv("OWNER_USERNAME")
 ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("Tom01212bot")
+BOT_USERNAME = getenv("BOT_USERNAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/tom011500976/Tom-musicly.git")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "jepthonsupport")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Tom01255")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Tom_01157")
 
 # database, decorators, handlers mandatory vars
-MONGODB_URL = getenv("mongodb+srv://hussein87:Hussein87@cluster0.wynpz.mongodb.net/?retryWrites=true&w=majority")
+MONGODB_URL = getenv("MONGODB_URL")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "").split())
-OWNER_ID = list(map(int, getenv("5352754419").split()))
-SUDO_USERS = list(map(int, getenv("5352754419").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
