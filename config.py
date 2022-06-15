@@ -5,7 +5,7 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("9157919"))
+API_ID = int(getenv(9157919))
 API_HASH = getenv("b90c282e584222babde5f68b5b63ee3b")
 BOT_TOKEN = getenv("5353641392:AAHrG7uci02NtS_sxbbj_NCUrhUV4yAyTPg")
 SESSION_NAME = getenv("BAAqf8RhiJqRZgGo9aLe3a3nKCNa_0IFBnFMOMhEi2yvvNdvcRrO6FGpAbhMJTODIjQGlkIIlUQ4VXTqtxn1vflCh9kvSQWM-I_Mwl6zIiB-LYCS9FJduaPr72b8JHi3pOQeVZXvWYco9CRt3Onhvy-3FW6KeH4HdPhx3srzGgUb7-EcSUMLZw7yNOfzmELWs6oKxyUIkWmkICfAkSpcyxLe9bSUMySWZ3jmMbSV5xQ1J4hGrfPktCSXxYtxuErbsEh9Jus27Ptd_g2K69mQc9A6fDxplJYhtXq9VliyjhMAMPGUoOD7gduphQ6oRAEl-kXCUNn53LpNMP2Va1MeP79AAAAAAUCtdZ8A", "session")
@@ -13,7 +13,7 @@ SESSION_NAME = getenv("BAAqf8RhiJqRZgGo9aLe3a3nKCNa_0IFBnFMOMhEi2yvvNdvcRrO6FGpA
 # mandatory vars
 OWNER_USERNAME = getenv("Tom_01157")
 ALIVE_NAME = getenv("Tom")
-BOT_USERNAME = getenv("BOT_USERNAME")
+BOT_USERNAME = getenv("Tom01212bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/tom011500976/Music-dom.git")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
