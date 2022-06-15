@@ -18,24 +18,27 @@
      "API_ID": {
             "description": "ايبي ايدي",
             "required": true,
-            "value": ""
+            "value": "9157919"
         },
      "API_HASH": {
             "description": "ايبي هاش",
             "required": true,
-            "value": ""
+            "value": "b90c282e584222babde5f68b5b63ee3b"
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن",
             "required": true
+            "value": "5353641392:AAHrG7uci02NtS_sxbbj_NCUrhUV4yAyTPg"
         },
         "BOT_USERNAME": {
             "description": "اكتب معرف البوت بدون @",
             "required": true
+            "value": "Tom01212bot"
         },
         "SESSION_NAME": {
             "description": "اكتب كود بايروجرام",
             "required": true
+            "value": "BAAqf8RhiJqRZgGo9aLe3a3nKCNa_0IFBnFMOMhEi2yvvNdvcRrO6FGpAbhMJTODIjQGlkIIlUQ4VXTqtxn1vflCh9kvSQWM-I_Mwl6zIiB-LYCS9FJduaPr72b8JHi3pOQeVZXvWYco9CRt3Onhvy-3FW6KeH4HdPhx3srzGgUb7-EcSUMLZw7yNOfzmELWs6oKxyUIkWmkICfAkSpcyxLe9bSUMySWZ3jmMbSV5xQ1J4hGrfPktCSXxYtxuErbsEh9Jus27Ptd_g2K69mQc9A6fDxplJYhtXq9VliyjhMAMPGUoOD7gduphQ6oRAEl-kXCUNn53LpNMP2Va1MeP79AAAAAAUCtdZ8A"
         },
         "MONGODB_URL": {
             "description": "لا تغيرها ابد",
@@ -45,12 +48,12 @@
         "SUDO_USERS": {
             "description": "اكتب ايديات المطورين",
             "required": true,
-            "value": ""
+            "value": "5352754419"
         },
         "OWNER_ID": {
             "description": "اكتب ايدي مالك البوت",
             "required": true,
-            "value": ""
+            "value": "5352754419"
         },
         "OWNER_USERNAME": {
             "description": "اكتب معرف المطور بدون @",
@@ -60,7 +63,7 @@
         "ALIVE_NAME": {
             "description": "اكتب اسم المطور",
             "required": true,
-            "value": ""
+            "value": "Tom"
         }
     },
     "addons": [],
